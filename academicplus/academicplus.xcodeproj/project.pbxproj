@@ -8,15 +8,31 @@
 
 /* Begin PBXBuildFile section */
 		2E29D3002369DBA200FABC23 /* loginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E29D2FF2369DBA200FABC23 /* loginViewController.swift */; };
+		2E7C7681237F713700CC0DC8 /* onBoarding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E7C7680237F713700CC0DC8 /* onBoarding.storyboard */; };
+		2E7C7683237F738B00CC0DC8 /* unoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E7C7682237F738B00CC0DC8 /* unoViewController.swift */; };
+		2E7C7685237F739F00CC0DC8 /* dosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E7C7684237F739F00CC0DC8 /* dosViewController.swift */; };
+		2E7C7687237F73A800CC0DC8 /* tresViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E7C7686237F73A800CC0DC8 /* tresViewController.swift */; };
+		2EADE0AE2369FF9100F31117 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EADE0AD2369FF9100F31117 /* Constants.swift */; };
+		2EADE0B02369FFCC00F31117 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EADE0AF2369FFCC00F31117 /* UIView+Extension.swift */; };
+		2EADE0B2236A031300F31117 /* ResumenAcademicoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EADE0B1236A031300F31117 /* ResumenAcademicoViewController.swift */; };
 		2EFE8133235E01380016FF8B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EFE8132235E01380016FF8B /* AppDelegate.swift */; };
 		2EFE8135235E01380016FF8B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EFE8134235E01380016FF8B /* ViewController.swift */; };
 		2EFE8138235E01380016FF8B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EFE8136235E01380016FF8B /* Main.storyboard */; };
 		2EFE813A235E01390016FF8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EFE8139235E01390016FF8B /* Assets.xcassets */; };
 		2EFE813D235E01390016FF8B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EFE813B235E01390016FF8B /* LaunchScreen.storyboard */; };
+		A5AAB37D236A07D800803D7D /* PerfilEstudianteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5AAB37C236A07D800803D7D /* PerfilEstudianteViewController.swift */; };
+		A5AAB37F236A082700803D7D /* ProfesoresTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5AAB37E236A082700803D7D /* ProfesoresTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2E29D2FF2369DBA200FABC23 /* loginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginViewController.swift; sourceTree = "<group>"; };
+		2E7C7680237F713700CC0DC8 /* onBoarding.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = onBoarding.storyboard; sourceTree = "<group>"; };
+		2E7C7682237F738B00CC0DC8 /* unoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = unoViewController.swift; sourceTree = "<group>"; };
+		2E7C7684237F739F00CC0DC8 /* dosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dosViewController.swift; sourceTree = "<group>"; };
+		2E7C7686237F73A800CC0DC8 /* tresViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tresViewController.swift; sourceTree = "<group>"; };
+		2EADE0AD2369FF9100F31117 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		2EADE0AF2369FFCC00F31117 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		2EADE0B1236A031300F31117 /* ResumenAcademicoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResumenAcademicoViewController.swift; sourceTree = "<group>"; };
 		2EFE812F235E01380016FF8B /* academicplus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = academicplus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EFE8132235E01380016FF8B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2EFE8134235E01380016FF8B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +40,8 @@
 		2EFE8139235E01390016FF8B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2EFE813C235E01390016FF8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2EFE813E235E01390016FF8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5AAB37C236A07D800803D7D /* PerfilEstudianteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerfilEstudianteViewController.swift; sourceTree = "<group>"; };
+		A5AAB37E236A082700803D7D /* ProfesoresTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfesoresTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +77,19 @@
 				2EFE8132235E01380016FF8B /* AppDelegate.swift */,
 				2EFE8134235E01380016FF8B /* ViewController.swift */,
 				2EFE8136235E01380016FF8B /* Main.storyboard */,
+				2E7C7680237F713700CC0DC8 /* onBoarding.storyboard */,
+				2E7C7682237F738B00CC0DC8 /* unoViewController.swift */,
+				2E7C7684237F739F00CC0DC8 /* dosViewController.swift */,
+				2E7C7686237F73A800CC0DC8 /* tresViewController.swift */,
 				2E29D2FF2369DBA200FABC23 /* loginViewController.swift */,
 				2EFE8139235E01390016FF8B /* Assets.xcassets */,
 				2EFE813B235E01390016FF8B /* LaunchScreen.storyboard */,
 				2EFE813E235E01390016FF8B /* Info.plist */,
+				2EADE0AD2369FF9100F31117 /* Constants.swift */,
+				2EADE0AF2369FFCC00F31117 /* UIView+Extension.swift */,
+				2EADE0B1236A031300F31117 /* ResumenAcademicoViewController.swift */,
+				A5AAB37C236A07D800803D7D /* PerfilEstudianteViewController.swift */,
+				A5AAB37E236A082700803D7D /* ProfesoresTableViewCell.swift */,
 			);
 			path = academicplus;
 			sourceTree = "<group>";
@@ -127,6 +154,7 @@
 			files = (
 				2EFE813D235E01390016FF8B /* LaunchScreen.storyboard in Resources */,
 				2EFE813A235E01390016FF8B /* Assets.xcassets in Resources */,
+				2E7C7681237F713700CC0DC8 /* onBoarding.storyboard in Resources */,
 				2EFE8138235E01380016FF8B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,9 +166,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E7C7683237F738B00CC0DC8 /* unoViewController.swift in Sources */,
 				2EFE8135235E01380016FF8B /* ViewController.swift in Sources */,
 				2EFE8133235E01380016FF8B /* AppDelegate.swift in Sources */,
+				A5AAB37D236A07D800803D7D /* PerfilEstudianteViewController.swift in Sources */,
+				A5AAB37F236A082700803D7D /* ProfesoresTableViewCell.swift in Sources */,
 				2E29D3002369DBA200FABC23 /* loginViewController.swift in Sources */,
+				2EADE0B2236A031300F31117 /* ResumenAcademicoViewController.swift in Sources */,
+				2E7C7685237F739F00CC0DC8 /* dosViewController.swift in Sources */,
+				2EADE0B02369FFCC00F31117 /* UIView+Extension.swift in Sources */,
+				2EADE0AE2369FF9100F31117 /* Constants.swift in Sources */,
+				2E7C7687237F73A800CC0DC8 /* tresViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

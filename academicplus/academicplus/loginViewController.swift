@@ -9,13 +9,19 @@
 import UIKit
 
 class loginViewController: UIViewController {
-
+    
+    @IBOutlet weak var loginButtonStyle: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-    
+        
+        loginButtonStyle.layer.cornerRadius = loginButtonStyle.frame.size.height/2
+        loginButtonStyle.layer.masksToBounds = true
+        
+        loginButtonStyle.setGradientBackgroung(colorUno: Colores.azul1, ColorDos: Colores.azul3)
         // Do any additional setup after loading the view.
     }
+    
     @IBOutlet weak var codeField: UITextField!
     @IBOutlet weak var passField: UITextField!
     
@@ -25,7 +31,7 @@ class loginViewController: UIViewController {
         let myPass : String
         myPass = passField.text!
         
-        if (myCode == "2017129893" && myPass == "pepito1") {
+        if (myCode == "123456789" && myPass == "pepito1") {
             let onHome : UIStoryboard = UIStoryboard(name: "Main",bundle : nil)
             let loginBtn = onHome.instantiateViewController(withIdentifier: "resumen")
             self.present(loginBtn, animated: false, completion: nil)
